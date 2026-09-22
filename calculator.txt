@@ -30,5 +30,16 @@ public class Calculator {
 
         // 4. Récupération du chiffre
         operateur = sc.nextInt();
+        
+        // Affichage du message de demande
+        System.out.println("Entre la première valeur :");
+
+        // récupération de la première valeur dans operande1
+        int operande1;
+        operande1 = sc.nextInt();
+        
+        System.out.println("Entre la deuxieme valeur");
+        int operande2;
+        operande2 = sc.nextInt();
     }
 }
