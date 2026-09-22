@@ -1,0 +1,30 @@
+/*
+ * NOM : SELVANATHAN
+ * PRENOM : Shankavi
+ * Role du programme : Réaliser un programme qui recapitule le programme d'une calculatrice
+ * Date : 22/09/2026
+ */
+package exo1;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author SLKSh
+ */
+public class Exo1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        String prenom;
+        Scanner sc;
+        sc = new Scanner(System.in);
+        System.out.println("Bonjour, quel est votre prenom ?");
+        prenom = sc.nextLine();
+        System.out.println("Bonjour " + prenom);
+        System.out.println("Au revoir " + prenom);
+    }
+    
+}
