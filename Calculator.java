@@ -1,0 +1,34 @@
+/*
+ * NOM : SELVANATHAN
+ * PRENOM : Shankavi
+ * Role du programme : Réaliser un programme qui recapitule le programme d'une calculatrice
+ * Date : 22/09/2026
+ */
+
+package com.mycompany.calculator;
+import java.util.Scanner;
+
+/**
+ *
+ * @author SLKSh
+ */
+public class Calculator {
+
+    public static void main(String[] args) {
+        System.out.println("Please enter the operator:");
+        System.out.println("1) add");
+        System.out.println("2) substract");
+        System.out.println("3) multiply");
+        System.out.println("4) divide");
+        System.out.println("5) modulo");
+        
+        // 2. Déclaration de la nouvelle variable
+        int operateur;
+
+        // 3. Création de l'objet
+        Scanner sc = new Scanner(System.in);
+
+        // 4. Récupération du chiffre
+        operateur = sc.nextInt();
+    }
+}
